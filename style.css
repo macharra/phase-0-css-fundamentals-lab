@@ -33,12 +33,18 @@ nav a:hover{
   background-color: white;
   padding: 20px;
   margin: 20px;
+  text-align: center;
 }
 
 #featured-property img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+#featured-property p{
+  text-align: left;
 }
 
 #details {
@@ -47,11 +53,13 @@ nav a:hover{
   background-color: rgb(248, 235, 235);
   padding: 20px;
   margin: 20px;
+  text-align: center;
 }
 
 #details div {
   flex: 1;
   margin: 0 10px;
+  text-align: left;
 }
 
 #details h3 {
